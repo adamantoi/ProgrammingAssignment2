@@ -1,9 +1,15 @@
 ## Put comments here that give an overall description of what your
 ## functions do
+## The script has two functions, makeCacheMatrix and cacheSolve
+## makeCacheMatrix function accepts a matrix which can be inversed and stored to a global variabel
+## cacheSolve function will get the result of inversed matrix if it already exist, otherwise it will
+## calculate the inverse then stores it to the global variable via makeCacheMatrix function.
+
+
 
 ## Write a short comment describing this function
 ## This function accept a matrix to be inversed and cached. 
-## There are 4 function inside this function:
+## There are 4 functions inside this function:
 ## 1. set 2. get 4. setInversedMatrix 5. getInversedMatrix
 ## We save the inversed matrix in a variable called m outside the current environment.
 ## The function returns a list containing all 4 inner function
